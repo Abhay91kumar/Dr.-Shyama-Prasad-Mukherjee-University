@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.f-c-image {
+    margin: 0;
+    width: 100%;
+    height: 50vh;
+}
+
+.footer-container {
+    /* margin: 20px auto; */
+    background-color: #202054eb;
+    /* position: fixed; */
+    height: 50vh;
+    width: 100%;
+    color: antiquewhite;
+}
+
+.footer-heading {
+    display: flex;
+    justify-content: space-evenly;
+    /* margin: 26px auto; */
+}
+
+.footer-heading li {
+    margin-top: 29px;
+    padding: 0px 12px;
+    list-style: none;
+
+}
+
+.footer-heading li a {
+    font-weight: 600;
+    font-size: x-large;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.sub-heading {
+    margin: 30px auto;
+}
+
+div.sub-heading a {
+    font-size: 18px;
+    font-weight: 200;
+}
+
+#sub-heading {
+    margin: 10px 0px;
+}
+
+.f-i-logo {
+    display: flex;
+    position: relative;
+    bottom: 5%;
+    justify-content: center;
+
+}

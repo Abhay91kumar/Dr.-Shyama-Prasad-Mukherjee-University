@@ -1,0 +1,70 @@
+.burger {
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 19px;
+}
+
+.line {
+    width: 33px;
+    background-color: white;
+    height: 6px;
+    margin: 6px 4px;
+}
+
+@media only screen and (max-width: 1170px) {
+    .navbar-header {
+        height: 100vh
+    }
+    .nav-list {
+        flex-direction: column;
+    }
+
+    #search {
+        width: 35%;
+    }
+
+    .navbar {
+        transition: all 0.7s ease-out;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .nav-resp {
+        flex-direction: row;
+        height: 13vh;
+    }
+
+    .h-nav-resp {
+        height: 75vh;
+    }
+
+    .v-class-resp {
+        opacity: 0;
+    }
+}
+
+@media only screen and (max-width: 747px) {
+    .box-main {
+        flex-direction: column;
+        max-width: 100%;
+    }
+    /* .logo img {
+        width: 106px;
+    } */
+    .imgb img {
+        width: 0px;
+    }
+    .secRight{
+        width: 40vw;
+    }
+    .section-main{
+        justify-content: space-around;
+    }
+    .secri1{
+        display: none;
+    }
+}
